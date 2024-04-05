@@ -9,7 +9,7 @@ func main() {
   var a string
 
   for {
-    fmt.Println("Do you still love me?")
+    fmt.Println("Vadim, do you still love me?")
     _, err := fmt.Scan(&a)
     if err != nil {
       log.Fatal("Все сломалось")
